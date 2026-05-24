@@ -24,9 +24,10 @@ body {
 }
 
 img {
-    width: 200px;
+    width: 300px;
     height: auto;
-    display: block;
+   viewBox: 0 0 100 100;
+    /*display: block;*/
 }
 
 a {
@@ -71,10 +72,10 @@ ol {
     padding: 14px 10%;
 }
 
-/*.logo img{
+.logo img{
     height: 55px;
     width: auto;
-}*/
+}
 .logo {
     cursor: pointer;
 }
